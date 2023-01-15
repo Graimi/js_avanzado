@@ -16,6 +16,7 @@ console.log(fourthStudent);
 const [, , , ...restOperator] = students;
 console.log(restOperator);
 
+console.log(restOperator);
 // SPREAD OPERATOR
 const newStudents = ['bono', 'tomatito'];
 const allStudents = [...students, ...newStudents];
